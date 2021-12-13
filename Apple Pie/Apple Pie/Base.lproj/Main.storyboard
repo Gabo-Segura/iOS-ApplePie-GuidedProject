@@ -22,8 +22,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iix-zp-j73">
                                 <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree 0" translatesAutoresizingMaskIntoConstraints="NO" id="MjL-vV-mLf">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="578"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Guess the fruit..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tG7-Ux-yNc">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="29"/>
+                                        <color key="tintColor" red="0.00050925219176367609" green="0.30470816551595126" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" red="0.0005092521918" green="0.30470816550000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Tree 0" translatesAutoresizingMaskIntoConstraints="NO" id="MjL-vV-mLf">
+                                        <rect key="frame" x="0.0" y="29" width="1024" height="549"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cq7-XZ-BRa">
                                         <rect key="frame" x="0.0" y="578" width="1024" height="170"/>
